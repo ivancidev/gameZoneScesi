@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sitio de videojuegos</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="/images/bros.jpg" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <ul>
+            <a href="#home" class="logo">GameZone</a>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#categories">Categorías</a></li>
+            <li><a href="#promotions">Promociones</a></li>
+            <a href="#profile"
+              ><svg
+                class="profile-svg"
+                viewBox="0 0 30.586 30.586"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g transform="translate(-546.269 -195.397)">
+                  <path
+                    d="M572.138,221.245a15.738,15.738,0,0,0-21.065-.253l-1.322-1.5a17.738,17.738,0,0,1,23.741.28Z"
+                  />
+
+                  <path
+                    d="M561.464,204.152a4.96,4.96,0,1,1-4.96,4.96,4.966,4.966,0,0,1,4.96-4.96m0-2a6.96,6.96,0,1,0,6.96,6.96,6.96,6.96,0,0,0-6.96-6.96Z"
+                  />
+
+                  <path
+                    d="M561.562,197.4a13.293,13.293,0,1,1-13.293,13.293A13.308,13.308,0,0,1,561.562,197.4m0-2a15.293,15.293,0,1,0,15.293,15.293A15.293,15.293,0,0,0,561.562,195.4Z"
+                  />
+                </g></svg
+            ></a>
+            <a href="#cart"
+              ><svg
+                class="shoppingCart-svg"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="Interface / Shopping_Cart_01">
+                  <path
+                    id="Vector"
+                    d="M17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17ZM17 17H9.29395C8.83288 17 8.60193 17 8.41211 16.918C8.24466 16.8456 8.09938 16.7291 7.99354 16.5805C7.8749 16.414 7.82719 16.1913 7.73274 15.7505L5.27148 4.26465C5.17484 3.81363 5.12587 3.58838 5.00586 3.41992C4.90002 3.27135 4.75477 3.15441 4.58732 3.08205C4.39746 3 4.16779 3 3.70653 3H3M6 6H18.8732C19.595 6 19.9555 6 20.1978 6.15036C20.41 6.28206 20.5653 6.48862 20.633 6.729C20.7104 7.00343 20.611 7.34996 20.411 8.04346L19.0264 12.8435C18.9068 13.2581 18.8469 13.465 18.7256 13.6189C18.6185 13.7547 18.4772 13.861 18.317 13.9263C18.1361 14 17.9211 14 17.4921 14H7.73047M8 21C6.89543 21 6 20.1046 6 19C6 17.8954 6.89543 17 8 17C9.10457 17 10 17.8954 10 19C10 20.1046 9.10457 21 8 21Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g></svg
+            ></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bienvenidos a GameZone</h1>
+        <p>Descubre los mejores videojuegos al mejor precio.</p>
+        <button href="#comprar" class="btn">Comprar</button>
+      </div>
+    </section>
+    <main>
+      <section class="featured-games">
+        <h2>Juegos destacados</h2>
+        <div class="game-container">
+          <div class="game">
+            <img src="./images/callofduty.jpg" alt="" />
+            <p>Juego 1</p>
+          </div>
+        </div>
+      </section>
+      <section class="top-categories">
+        <h2>Top de Categorias</h2>
+        <div class="category-container">
+          <div class="category">
+            <img src="./images/callofduty.jpg" alt="" />
+            <p>Categoria 1</p>
+          </div>
+        </div>
+      </section>
+      <section class="video-section">
+        <video autoplay muted loop class="background-video">
+          <source
+            src="/video/4291570-hd_1280_720_60fps.mp4"
+            type="video/mp4"
+          />
+          Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="video-content">
+          <h2>Explora Nuevos Mundos</h2>
+          <p>Descubre los mejores juegos y promociones.</p>
+          <a href="#descubrir" class="btn">Descubrir</a>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
