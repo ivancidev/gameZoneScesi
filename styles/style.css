@@ -1,0 +1,70 @@
+/* Afecta a toda la pagina */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+ /* Definir variables */
+:root {
+  --primary-color: #000000;
+  --secondary-color: #e55b00;
+  --txtpresentation-color: #fff;
+  --border-color: #171717;
+  --background-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  padding: 25px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  /* centrar */
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.nav-left a{
+  color: var(--primary-color) ; 
+  font-weight: 800;
+}
+
+.nav-right ul {
+  display: flex;
+  align-items: center;
+}
+
+.profile-svg {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-svg:hover {
+  fill: #e55b00;
+}
+
+.shoppingCart-svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+.nav-right a {
+  margin-left: 35px ;
+  color: var(--primary-color) ;
+}
+
+/* Presentation page */
