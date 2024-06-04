@@ -2,6 +2,14 @@
 
 HTMLGameZone es un sitio web enfocado a los amantes de los videojuegos, donde puedes explorar, comprar y descargar los juegos.
 
+# Screen Presentation💻
+[![Captura-de-pantalla-2024-06-03-225602.png](https://i.postimg.cc/13vFcRTS/Captura-de-pantalla-2024-06-03-225602.png)](https://postimg.cc/yDSW7Ksp)
+
+# Screen Games
+[![Captura-de-pantalla-2024-06-03-225924.png](https://i.postimg.cc/zfvZcpGM/Captura-de-pantalla-2024-06-03-225924.png)](https://postimg.cc/5XhRHBvq)
+
+# Screen Video
+[![Captura-de-pantalla-2024-06-03-230025.png](https://i.postimg.cc/pLNJ7dXt/Captura-de-pantalla-2024-06-03-230025.png)](https://postimg.cc/tY56npxr)
 
 ## Estructura de Carpetas
 
