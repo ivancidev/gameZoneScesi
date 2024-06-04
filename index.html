@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sitio de videojuegos</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="shortcut icon" href="/images/bros.jpg" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/images/bros.jpg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -67,8 +67,8 @@
         </div>
       </nav>
     </header>
-    <section class="hero">
-      <div class="hero-content">
+    <section class="presentation">
+      <div class="presentation-content">
         <h1>Bienvenidos a GameZone</h1>
         <p>Descubre los mejores videojuegos al mejor precio.</p>
         <button href="#comprar" class="btn">Comprar</button>
@@ -82,32 +82,119 @@
             <img src="./images/callofduty.jpg" alt="" />
             <p>Juego 1</p>
           </div>
+          <div class="game">
+            <img src="./images/callofduty.jpg" alt="" />
+            <p>Juego 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/callofduty.jpg" alt="" />
+            <p>Juego 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/callofduty.jpg" alt="" />
+            <p>Juego 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/callofduty.jpg" alt="" />
+            <p>Juego 1</p>
+          </div>
         </div>
       </section>
-      <section class="top-categories">
+      <section class="featured-games">
         <h2>Top de Categorias</h2>
-        <div class="category-container">
-          <div class="category">
-            <img src="./images/callofduty.jpg" alt="" />
+        <div class="game-container">
+          <div class="game">
+            <img src="./images/fortnite.jpg" alt="" />
+            <p>Categoria 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/fortnite.jpg" alt="" />
+            <p>Categoria 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/fortnite.jpg" alt="" />
+            <p>Categoria 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/fortnite.jpg" alt="" />
+            <p>Categoria 1</p>
+          </div>
+          <div class="game">
+            <img src="./images/fortnite.jpg" alt="" />
             <p>Categoria 1</p>
           </div>
         </div>
       </section>
       <section class="video-section">
         <video autoplay muted loop class="background-video">
-          <source
-            src="/video/4291570-hd_1280_720_60fps.mp4"
-            type="video/mp4"
-          />
+          <source src="/video/4291570-hd_1280_720_60fps.mp4" type="video/mp4" />
           Tu navegador no soporta videos HTML5.
         </video>
         <div class="video-content">
-          <h2>Explora Nuevos Mundos</h2>
-          <p>Descubre los mejores juegos y promociones.</p>
-          <a href="#descubrir" class="btn">Descubrir</a>
+          <div class="text-container">
+            <h2>Explora Nuevos Mundos</h2>
+            <p>Descubre los mejores juegos y promociones.</p>
+            <a href="#descubrir" class="btnVideo">Descubrir</a>
+          </div>
+        </div>
+      </section>
+      <section class="new-games">
+        <h2>Nuevos Juegos</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./images/pac.jpg" alt="Juego 5" />
+            <h3>Juego 5</h3>
+          </div>
+          <div class="grid-item">
+            <img src="./images/pac.jpg" alt="Juego 5" />
+            <h3>Juego 5</h3>
+          </div>
+          <div class="grid-item">
+            <img src="./images/pac.jpg" alt="Juego 5" />
+            <h3>Juego 5</h3>
+          </div>
+          <div class="grid-item">
+            <img src="./images/pac.jpg" alt="Juego 5" />
+            <h3>Juego 5</h3>
+          </div>
+          <div class="grid-item">
+            <img src="./images/pac.jpg" alt="Juego 5" />
+            <h3>Juego 5</h3>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer-column">
+        <h3>Nosotros</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Demo</a></li>
+          <li><a href="#">Terminos de Servicio</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contactanos</h3>
+        <ul>
+          <li><a href="#">Soporte</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Patrocinios</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Redes Sociales</h3>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="footer-column newsletter">
+        <h3>Suscribete</h3>
+        <input type="email" placeholder="Ingresa tu correo">
+        <button type="button">Suscribirse</button>
+      </div>
+    </footer>
   </body>
 </html>
